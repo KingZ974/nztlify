@@ -1,0 +1,232 @@
+@font-face{
+  font-family: raleway;
+  src: url("raleway/Raleway-Light.ttf");
+}
+body{
+  font-family: raleway;
+  background-color:  #DBDBDB;
+}
+
+  /* ordi*/
+@media only screen and (min-width:902px) {
+  
+
+
+.titre{
+    margin-top: 3%;
+    text-align: center;
+}
+.PRINCIPAL{
+    display: flex;
+ justify-content: space-around;
+
+}
+header h2 span{
+  background-color: black;
+  color: #f1f1f1;
+}
+.TOP1{
+  width:60%;
+}
+.TOP1 .card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 70vh;
+  }
+  .cardi1{
+      width: 100%;
+  }
+  .card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container1{
+    padding: 2px 16px;
+  }
+  input{
+    margin-top: 9%;
+  }
+.comment{
+  display: inline;
+  width:11%;
+  margin-left: 72%;
+}
+.comment span{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 0 7px;
+}
+
+
+  .TOP1 .card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+  }
+  .cardi2{
+      width: 100%;
+  }
+  .card2:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container2{
+    padding: 2px 16px;
+  }
+
+
+.TOP2{
+   
+    /* margin-left: 1%; */
+    width: 30%;
+}
+
+  .card3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    /* height: 60vh; */
+    /* overflow: auto; */
+  }
+  .cardi3{
+      width: 100%;
+  }
+  .card3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container3{
+    padding: 2px 16px;
+  }
+
+.TABLEAU{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* margin-top: 6%; */
+  width: 100%;
+  margin-top: 4%;
+}
+table{
+  width: 100%;
+}
+thead th{
+  background-color: #C8C5DB;
+  border: 1px solid;
+  text-align: left;
+  padding: 30px;
+ 
+}
+tbody th{
+  text-align: left;
+  }
+tbody th p{
+  display: inline-block;
+  }
+.Ti1{
+  margin-left: 2%;
+  }
+.Ti2{
+  margin-left: 2%;
+  }
+.Ti3{
+  margin-left: 2%;
+  }
+
+.Ti4{
+  margin-left: 2%;
+  } 
+
+
+tbody th{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  }
+table img{
+  width: 15%;
+  }
+tfoot th{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: left;
+  }
+tfoot th p{
+  
+  display: inline-block;
+  }
+  .block3{
+    padding-bottom:20% ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  }
+.block3 h2{
+  padding: 30px;
+  background-color: #C8C5DB;
+  border: 1px solid;
+  }
+  a{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    justify-content: space-between;
+  margin: 4px;
+  background-color: burlywood;
+  }
+}
+
+/* responsive mobile */
+@media only screen and (max-width:800px){
+  .PRINCIPAL{
+    
+    flex-direction:column-reverse;
+  }
+  
+  .TOP1, .TOP2{
+    width:100% ;
+    
+    }
+  header{
+    display: flex;
+    justify-content: center;
+    }
+    header h1{
+      font-size: 30px;
+      text-align: center
+    }
+    header h2{
+      text-align: center;
+    }
+  header h2 span{
+    font-size: 30px;
+      text-align: center;
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 10px;
+    }
+    .card1,.card2,.card3,.TABLEAU,.block3{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+  }
+
+
+  /* tablette*/
+  @media only screen and (min-width:801px) and (max-width:991px){
+    .PRINCIPAL{
+      display: block;
+      
+    }
+    .TOP1, .TOP2{
+      width: 100%;
+    }
+    .TOP2 .card3{
+      position:absolute  ;
+      top: 20%;
+      width: 100%;
+      display: flex;
+      
+    }
+    .cardi3{
+      width: 25%;
+      padding: 10px;
+    }
+    .TOP1{
+      margin-top: 40%;
+    }
+  }
